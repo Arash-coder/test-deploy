@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+  2x2-comeon:
+    image: ${IMAGE_BASE}
+    restart: always
+    ports:
+      - "5174:5174"
+
