@@ -11,7 +11,7 @@ function App() {
     const canvas = new fabric.Canvas("canvas");
     canvasRef.current = canvas;
 
-    fabric.Image.fromURL("src/assets/insta.webp", (img: any) => {
+    fabric.Image.fromURL("./insta.webp", (img: any) => {
       // Replace with your image URL
       canvas.setWidth(img.width);
       canvas.setHeight(img.height);
@@ -48,7 +48,7 @@ function App() {
       >
         <div id="container" className="w-full h-full">
           <img
-            src="src/assets/insta.webp"
+            src="./insta.webp"
             alt="image"
             className="h-full w-full absolute -z-10"
           />
