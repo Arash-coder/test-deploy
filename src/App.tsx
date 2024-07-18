@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import Example from "./components/gesture";
 import { fabric } from "fabric";
 
